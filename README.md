@@ -12,9 +12,7 @@ This repository contains end-to-end implementations covering data preprocessing,
   - Jupyter Notebook (`.ipynb`)
   - PDF report
   - Dataset (`.csv`)
-
 ---
-
 ### 2️⃣ Linear Regression (Salary Prediction)
 - **Type:** Regression
 - **Algorithm:** Simple Linear Regression
