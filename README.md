@@ -2,7 +2,6 @@
 
 A collection of Machine Learning projects implemented using Python.  
 This repository contains end-to-end implementations covering data preprocessing, model building, evaluation, and visualization.
-
 ---
 
 ### 1️⃣ Loan Approval Prediction
