@@ -21,4 +21,15 @@ This repository contains end-to-end implementations covering data preprocessing,
   - `Linear_Regression.py`
   - `Salary_dataset.csv`
 
----
+### 3️⃣ Polynomial Regression
+- **Type:** Regression (Non-linear)
+- **Algorithm:** Polynomial Regression
+- **Objective:** Model non-linear relationships by transforming input features into polynomial terms
+- **Concepts Covered:**
+  - Polynomial feature transformation
+  - Comparison between linear and polynomial regression
+  - Effect of polynomial degree on model performance
+- **Tools:** Python, NumPy, Pandas, Matplotlib, Scikit-learn
+- **Files:**
+  - `Polynomial_Regression.ipynb`
+
