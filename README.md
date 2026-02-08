@@ -20,7 +20,7 @@ This repository contains end-to-end implementations covering data preprocessing,
 - **Files:**
   - `Linear_Regression.py`
   - `Salary_dataset.csv`
-
+---
 ### 3️⃣ Polynomial Regression
 - **Type:** Regression (Non-linear)
 - **Algorithm:** Polynomial Regression
