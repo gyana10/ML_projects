@@ -22,8 +22,8 @@ print("Mean Squared Error:",mean_squared_error(y_test,y_pred))
 print("R2 Score:",r2_score(y_test,y_pred))
 
 
-plt.scatter(X_test,y_test,color='red',label='Actual')
-plt.plot(X_test,y_pred,color='blue',label='Predicted')
+plt.scatter(X_test,y_test,color='blue',label='Actual')
+plt.plot(X_test,y_pred,color='red',label='Predicted')
 plt.title('Actual vs Predicted')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
