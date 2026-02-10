@@ -4,7 +4,7 @@ A collection of Machine Learning projects implemented using Python.
 This repository contains end-to-end implementations covering data preprocessing, model building, evaluation, and visualization.
 ---
 
-### 1️⃣ Loan Approval Prediction
+### 1. Loan Approval Prediction
 - **Type:** Classification
 - **Techniques:** Data preprocessing, feature engineering, ML classification models
 - **Tools:** Python, Pandas, NumPy, Scikit-learn
@@ -13,7 +13,7 @@ This repository contains end-to-end implementations covering data preprocessing,
   - PDF report
   - Dataset (`.csv`)
 ---
-### 2️⃣ Linear Regression (Salary Prediction)
+### 2️. Linear Regression (Salary Prediction)
 - **Type:** Regression
 - **Algorithm:** Simple Linear Regression
 - **Objective:** Predict salary based on experience
@@ -21,7 +21,7 @@ This repository contains end-to-end implementations covering data preprocessing,
   - `Linear_Regression.py`
   - `Salary_dataset.csv`
 ---
-### 3️⃣ Polynomial Regression
+### 3️. Polynomial Regression
 - **Type:** Regression (Non-linear)
 - **Algorithm:** Polynomial Regression
 - **Objective:** Model non-linear relationships by transforming input features into polynomial terms
@@ -29,4 +29,5 @@ This repository contains end-to-end implementations covering data preprocessing,
 - **Files:**
   - `Polynomial_Regression.ipynb`
   - `Salary_dataset.csv`
+### 4. Linear Regression using Gradient Descent
 
