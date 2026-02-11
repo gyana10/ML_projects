@@ -1,11 +1,11 @@
-# ML Projects
+# ML Projects and Concepts
 
-A collection of Machine Learning projects implemented using Python.  
+A collection of Machine Learning projects  and Concepts implemented using Python and It's Libraries and frameworks .  
 This repository contains end-to-end implementations covering data preprocessing, model building, evaluation, and visualization.
 
 ---
 
-### 1. Loan Approval Prediction
+### 1. Loan Approval Prediction(PROJECT)
 - **Type:** Classification
 - **Techniques:** Data preprocessing, feature engineering, ML classification models
 - **Tools:** Python, Pandas, NumPy, Scikit-learn
