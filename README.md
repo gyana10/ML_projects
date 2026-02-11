@@ -45,7 +45,7 @@ This repository contains end-to-end implementations covering data preprocessing,
 - **Techniques:** Feature scaling, Gradient Descent optimization
 - **Tools:** Python, NumPy, Pandas, Matplotlib, Scikit-learn (`SGDRegressor`)
 - **Files:**
-  - `Linear_Regression_Gradient_Descent.py`
+  - `Linear_Regression_Gradient_Descent.ipynb`
   - `Salary_dataset.csv`
 
 ---
