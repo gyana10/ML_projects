@@ -26,7 +26,6 @@ This repository contains end-to-end implementations covering data preprocessing,
   - `Salary_dataset.csv`
 
 ---
-
 ### 3. Polynomial Regression
 - **Type:** Regression (Non-linear)
 - **Algorithm:** Polynomial Regression
