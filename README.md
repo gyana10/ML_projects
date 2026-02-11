@@ -37,7 +37,6 @@ This repository contains end-to-end implementations covering data preprocessing,
   - `Salary_dataset.csv`
 
 ---
-
 ### 4. Linear Regression using Gradient Descent
 - **Type:** Regression
 - **Algorithm:** Linear Regression optimized using Gradient Descent / Stochastic Gradient Descent
