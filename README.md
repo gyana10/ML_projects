@@ -57,7 +57,29 @@ Python, Pandas, NumPy, Matplotlib, Scikit-learn
 
 ---
 
-## 📌 3. Polynomial Regression
+## 📌 3. Multiple Linear Regression (Student Performance)
+
+**Type:** Regression  
+**Algorithm:** Multiple Linear Regression  
+**Objective:** Predict student performance using multiple independent variables.
+
+### Concepts Covered:
+- Multiple feature modeling
+- Train-test split
+- Coefficient interpretation
+- R² Score and MSE
+- Model evaluation and visualization
+
+### Tools & Libraries:
+Python, Pandas, NumPy, Matplotlib, Scikit-learn
+
+### Project Files:
+- `Multiple_Linear_Regression.py`
+- `Student_Performance.csv`
+
+---
+
+## 📌 4. Polynomial Regression
 
 **Type:** Non-linear Regression  
 **Algorithm:** Polynomial Regression  
@@ -78,7 +100,7 @@ Python, NumPy, Pandas, Matplotlib, Scikit-learn
 
 ---
 
-## 📌 4. Linear Regression using Gradient Descent
+## 📌 5. Linear Regression using Gradient Descent
 
 **Type:** Regression  
 **Algorithm:** Linear Regression using Gradient Descent / Stochastic Gradient Descent  
