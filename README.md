@@ -9,7 +9,6 @@ This repository demonstrates end-to-end Machine Learning workflows including:
 - Model evaluation
 - Cross-validation
 - Visualization
-
 ---
 
 ## 📌 1. Loan Approval Prediction (Project)
