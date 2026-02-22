@@ -9,6 +9,7 @@ This repository demonstrates end-to-end Machine Learning workflows including:
 - Model evaluation
 - Cross-validation
 - Visualization
+
 ---
 
 ## 📌 1. Loan Approval Prediction (Project)
@@ -34,7 +35,30 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 ---
 
-## 📌 2. Linear Regression (Salary Prediction)
+## 📌 2. Logistic Regression (Drug Classification)
+
+**Type:** Classification  
+**Algorithm:** Logistic Regression  
+**Objective:** Predict the appropriate drug type for patients based on medical attributes.
+
+### Concepts Covered:
+- Data preprocessing and encoding
+- Handling categorical variables
+- Feature scaling using StandardScaler
+- Train-test split
+- Model evaluation (Accuracy, Precision, Recall, F1-score)
+- Confusion Matrix visualization
+
+### Tools & Libraries:
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+
+### Project Files:
+- `Logistic_Regression.py`
+- `drug200.csv`
+
+---
+
+## 📌 3. Linear Regression (Salary Prediction)
 
 **Type:** Regression  
 **Algorithm:** Simple Linear Regression  
@@ -56,7 +80,7 @@ Python, Pandas, NumPy, Matplotlib, Scikit-learn
 
 ---
 
-## 📌 3. Multiple Linear Regression (Student Performance)
+## 📌 4. Multiple Linear Regression (Student Performance)
 
 **Type:** Regression  
 **Algorithm:** Multiple Linear Regression  
@@ -78,7 +102,7 @@ Python, Pandas, NumPy, Matplotlib, Scikit-learn
 
 ---
 
-## 📌 4. Polynomial Regression
+## 📌 5. Polynomial Regression
 
 **Type:** Non-linear Regression  
 **Algorithm:** Polynomial Regression  
@@ -99,7 +123,7 @@ Python, NumPy, Pandas, Matplotlib, Scikit-learn
 
 ---
 
-## 📌 5. Linear Regression using Gradient Descent
+## 📌 6. Linear Regression using Gradient Descent
 
 **Type:** Regression  
 **Algorithm:** Linear Regression using Gradient Descent / Stochastic Gradient Descent  
@@ -125,13 +149,12 @@ Python, NumPy, Pandas, Matplotlib, Scikit-learn (`SGDRegressor`)
 
 - Data Cleaning and Preprocessing  
 - Feature Engineering  
+- Encoding Techniques (Label Encoding, One-Hot Encoding)  
+- Feature Scaling  
 - Train-Test Split  
 - K-Fold Cross Validation  
-- Model Evaluation (R², MSE, Accuracy, etc.)  
+- Model Evaluation (R², MSE, Accuracy, Precision, Recall, F1-score)  
 - Overfitting vs Underfitting  
 - Regression & Classification Fundamentals  
 
 ---
-
-## 📂 Repository Structure
-
