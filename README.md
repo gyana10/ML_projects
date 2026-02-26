@@ -58,7 +58,30 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 ---
 
-## 📌 3. Linear Regression (Salary Prediction)
+## 📌 3. K-Nearest Neighbors (KNN) with K-Fold Cross Validation
+
+**Type:** Classification  
+**Algorithm:** K-Nearest Neighbors (KNN)  
+**Objective:** Classify drug types using distance-based learning and evaluate performance using K-Fold Cross Validation.
+
+### Concepts Covered:
+- ColumnTransformer for preprocessing
+- One-Hot Encoding for categorical features
+- StandardScaler for numerical features
+- Pipeline integration
+- K-Fold Cross Validation
+- Accuracy evaluation across folds
+
+### Tools & Libraries:
+Python, Pandas, NumPy, Matplotlib, Scikit-learn
+
+### Project Files:
+- `KNN_KFold.py`
+- `drug200.csv`
+
+---
+
+## 📌 4. Linear Regression (Salary Prediction)
 
 **Type:** Regression  
 **Algorithm:** Simple Linear Regression  
@@ -80,7 +103,7 @@ Python, Pandas, NumPy, Matplotlib, Scikit-learn
 
 ---
 
-## 📌 4. Multiple Linear Regression (Student Performance)
+## 📌 5. Multiple Linear Regression (Student Performance)
 
 **Type:** Regression  
 **Algorithm:** Multiple Linear Regression  
@@ -102,7 +125,7 @@ Python, Pandas, NumPy, Matplotlib, Scikit-learn
 
 ---
 
-## 📌 5. Polynomial Regression
+## 📌 6. Polynomial Regression
 
 **Type:** Non-linear Regression  
 **Algorithm:** Polynomial Regression  
@@ -123,7 +146,7 @@ Python, NumPy, Pandas, Matplotlib, Scikit-learn
 
 ---
 
-## 📌 6. Linear Regression using Gradient Descent
+## 📌 7. Linear Regression using Gradient Descent
 
 **Type:** Regression  
 **Algorithm:** Linear Regression using Gradient Descent / Stochastic Gradient Descent  
