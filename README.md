@@ -8,7 +8,9 @@ This repository demonstrates end-to-end Machine Learning workflows including:
 - Model training
 - Model evaluation
 - Cross-validation
+- Hyperparameter tuning
 - Visualization
+- Model stability analysis
 
 ---
 
@@ -27,12 +29,6 @@ This repository demonstrates end-to-end Machine Learning workflows including:
 ### Tools & Libraries:
 Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-### Project Files:
-- Jupyter Notebook (`.ipynb`)
-- PDF Report
-- Dataset (`.csv`)
-- Evaluation Metrics (Accuracy, Precision, Recall, F1-score)
-
 ---
 
 ## 📌 2. Logistic Regression (Drug Classification)
@@ -42,18 +38,14 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 **Objective:** Predict the appropriate drug type for patients based on medical attributes.
 
 ### Concepts Covered:
-- Data preprocessing and encoding
-- Handling categorical variables
+- Data preprocessing using ColumnTransformer
+- One-Hot Encoding
 - Feature scaling using StandardScaler
 - Train-test split
-- Model evaluation (Accuracy, Precision, Recall, F1-score)
 - Confusion Matrix visualization
+- Classification Report (Precision, Recall, F1-score)
 
-### Tools & Libraries:
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-
-### Project Files:
-- `Logistic_Regression.py`
+### Dataset:
 - `drug200.csv`
 
 ---
@@ -65,119 +57,104 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 **Objective:** Classify drug types using distance-based learning and evaluate performance using K-Fold Cross Validation.
 
 ### Concepts Covered:
-- ColumnTransformer for preprocessing
-- One-Hot Encoding for categorical features
-- StandardScaler for numerical features
 - Pipeline integration
+- ColumnTransformer
+- Feature scaling
 - K-Fold Cross Validation
-- Accuracy evaluation across folds
+- Accuracy per fold evaluation
+- Mean Accuracy and Standard Deviation
+- Cross-validation visualization (Bar plot, Boxplot)
 
-### Tools & Libraries:
-Python, Pandas, NumPy, Matplotlib, Scikit-learn
-
-### Project Files:
-- `KNN_KFold.py`
+### Dataset:
 - `drug200.csv`
 
 ---
 
-## 📌 4. Linear Regression (Salary Prediction)
+## 📌 4. KNN with Stratified K-Fold Cross Validation (Advanced Evaluation)
+
+**Type:** Classification  
+**Algorithm:** KNN with StratifiedKFold  
+**Objective:** Maintain class balance across folds for reliable classification evaluation.
+
+### Concepts Covered:
+- StratifiedKFold (class distribution preservation)
+- Model stability measurement
+- Accuracy variance analysis
+- Confusion Matrix visualization
+- Cross-validation performance visualization
+
+### Why StratifiedKFold?
+Ensures each fold maintains the same class distribution as the original dataset, leading to more reliable performance estimates in classification tasks.
+
+---
+
+## 📌 5. KNN Hyperparameter Tuning (GridSearchCV)
+
+**Type:** Classification Optimization  
+**Objective:** Improve model accuracy by tuning hyperparameters.
+
+### Concepts Covered:
+- GridSearchCV
+- Tuning:
+  - n_neighbors
+  - distance metric (Euclidean / Manhattan)
+  - weight type (uniform / distance)
+- Best parameter selection
+- Improved cross-validation accuracy
+
+---
+
+## 📌 6. Linear Regression (Salary Prediction)
 
 **Type:** Regression  
 **Algorithm:** Simple Linear Regression  
-**Objective:** Predict salary based on years of experience.
 
 ### Concepts Covered:
 - Train-test split
 - Model fitting
-- Prediction
 - R² Score
 - Mean Squared Error (MSE)
 
-### Tools & Libraries:
-Python, Pandas, NumPy, Matplotlib, Scikit-learn
-
-### Project Files:
-- `Linear_Regression.py`
+### Dataset:
 - `Salary_dataset.csv`
 
 ---
 
-## 📌 5. Multiple Linear Regression (Student Performance)
+## 📌 7. Multiple Linear Regression (Student Performance)
 
 **Type:** Regression  
 **Algorithm:** Multiple Linear Regression  
-**Objective:** Predict student performance using multiple independent variables.
 
 ### Concepts Covered:
 - Multiple feature modeling
-- Train-test split
 - Coefficient interpretation
-- R² Score and MSE
-- Model evaluation and visualization
+- Model evaluation
 
-### Tools & Libraries:
-Python, Pandas, NumPy, Matplotlib, Scikit-learn
-
-### Project Files:
-- `Multiple_Linear_Regression.py`
+### Dataset:
 - `Student_Performance.csv`
 
 ---
 
-## 📌 6. Polynomial Regression
+## 📌 8. Polynomial Regression
 
 **Type:** Non-linear Regression  
 **Algorithm:** Polynomial Regression  
-**Objective:** Model non-linear relationships by transforming input features into polynomial terms.
 
 ### Concepts Covered:
 - Polynomial feature transformation
 - Curve fitting
 - Overfitting vs Underfitting
-- Model visualization
-
-### Tools & Libraries:
-Python, NumPy, Pandas, Matplotlib, Scikit-learn
-
-### Project Files:
-- `Polynomial_Regression.ipynb`
-- `Salary_dataset.csv`
 
 ---
 
-## 📌 7. Linear Regression using Gradient Descent
+## 📌 9. Linear Regression using Gradient Descent
 
 **Type:** Regression  
-**Algorithm:** Linear Regression using Gradient Descent / Stochastic Gradient Descent  
-**Objective:** Learn model parameters iteratively by minimizing the Mean Squared Error cost function.
+**Algorithm:** Linear Regression (Gradient Descent / SGDRegressor)
 
 ### Concepts Covered:
 - Cost function
-- Gradient computation
-- Learning rate
-- Convergence
-- Feature scaling
+- Gradient updates
+- Learning rate tuning
+- Convergence analysis
 
-### Tools & Libraries:
-Python, NumPy, Pandas, Matplotlib, Scikit-learn (`SGDRegressor`)
-
-### Project Files:
-- `Linear_Regression_Gradient_Descent.ipynb`
-- `Salary_dataset.csv`
-
----
-
-## 🔑 Core Machine Learning Concepts Covered
-
-- Data Cleaning and Preprocessing  
-- Feature Engineering  
-- Encoding Techniques (Label Encoding, One-Hot Encoding)  
-- Feature Scaling  
-- Train-Test Split  
-- K-Fold Cross Validation  
-- Model Evaluation (R², MSE, Accuracy, Precision, Recall, F1-score)  
-- Overfitting vs Underfitting  
-- Regression & Classification Fundamentals  
-
----
