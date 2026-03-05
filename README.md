@@ -44,7 +44,7 @@ This repository covers:
 ## 📌 3. K-Nearest Neighbors (KNN)
 
 **Type:** Classification  
-**Dataset:** `drug200.csv`  
+**Dataset:** `drug200.csv`
 
 ### Implementations:
 - KNN with K-Fold Cross Validation  
@@ -59,19 +59,34 @@ This repository covers:
 
 ---
 
-## 📌 4. Linear Regression (Salary Prediction)
+## 📌 4. Decision Tree Classification (Breast Cancer Prediction)
+
+**Type:** Classification  
+**Dataset:** `cancer_classification.csv`  
+**Objective:** Predict whether a tumor is **Benign (0)** or **Malignant (1)** using medical diagnostic features.
+
+**Key Concepts:**
+- Decision Tree modeling  
+- Tree depth control to prevent overfitting  
+- Feature importance analysis  
+- Confusion Matrix visualization  
+- Decision Tree visualization using `plot_tree()`  
+
+---
+
+## 📌 5. Linear Regression (Salary Prediction)
 
 **Type:** Regression  
 **Dataset:** `Salary_dataset.csv`
 
 **Key Concepts:**
 - Train-test split  
-- R² Score & MSE  
-- Model visualization  
+- R² Score & Mean Squared Error (MSE)  
+- Regression visualization  
 
 ---
 
-## 📌 5. Multiple Linear Regression (Student Performance)
+## 📌 6. Multiple Linear Regression (Student Performance)
 
 **Type:** Regression  
 **Dataset:** `Student_Performance.csv`
@@ -83,7 +98,7 @@ This repository covers:
 
 ---
 
-## 📌 6. Polynomial Regression
+## 📌 7. Polynomial Regression
 
 **Type:** Non-linear Regression  
 
@@ -94,7 +109,7 @@ This repository covers:
 
 ---
 
-## 📌 7. Linear Regression using Gradient Descent
+## 📌 8. Linear Regression using Gradient Descent
 
 **Type:** Regression  
 
@@ -116,8 +131,9 @@ This repository covers:
 - K-Fold & Stratified K-Fold  
 - Hyperparameter Tuning (GridSearchCV)  
 - Model Evaluation (Accuracy, R², MSE, F1-score)  
+- Decision Tree Visualization  
 - Model Stability & Bias-Variance Tradeoff  
 
 ---
 
-This repository reflects practical implementation of fundamental Machine Learning algorithms with proper evaluation strategies and structured project design.
+This repository reflects practical implementation of fundamental Machine Learning algorithms with structured experimentation, evaluation strategies, and visualization techniques.
