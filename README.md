@@ -74,7 +74,23 @@ This repository covers:
 
 ---
 
-## 📌 5. Linear Regression (Salary Prediction)
+## 📌 5. Decision Tree Regression (Student Performance Prediction)
+
+**Type:** Regression  
+**Dataset:** `Student_Performance.csv`  
+**Objective:** Predict a student's **Performance Index** based on study hours, sleep hours, previous scores, extracurricular activities, and other academic factors.
+
+**Key Concepts:**
+- Decision Tree Regressor modeling  
+- Handling categorical variables (Yes/No → 1/0 encoding)  
+- Train-test split for regression tasks  
+- Model evaluation using **R² Score** and **Mean Squared Error (MSE)**  
+- Feature importance visualization  
+- Decision Tree regression visualization using `plot_tree()`  
+
+---
+
+## 📌 6. Linear Regression (Salary Prediction)
 
 **Type:** Regression  
 **Dataset:** `Salary_dataset.csv`
@@ -86,7 +102,7 @@ This repository covers:
 
 ---
 
-## 📌 6. Multiple Linear Regression (Student Performance)
+## 📌 7. Multiple Linear Regression (Student Performance)
 
 **Type:** Regression  
 **Dataset:** `Student_Performance.csv`
@@ -98,7 +114,7 @@ This repository covers:
 
 ---
 
-## 📌 7. Polynomial Regression
+## 📌 8. Polynomial Regression
 
 **Type:** Non-linear Regression  
 
@@ -109,7 +125,7 @@ This repository covers:
 
 ---
 
-## 📌 8. Linear Regression using Gradient Descent
+## 📌 9. Linear Regression using Gradient Descent
 
 **Type:** Regression  
 
@@ -131,7 +147,7 @@ This repository covers:
 - K-Fold & Stratified K-Fold  
 - Hyperparameter Tuning (GridSearchCV)  
 - Model Evaluation (Accuracy, R², MSE, F1-score)  
-- Decision Tree Visualization  
+- Decision Tree Modeling & Visualization  
 - Model Stability & Bias-Variance Tradeoff  
 
 ---
