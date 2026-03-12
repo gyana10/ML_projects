@@ -36,12 +36,27 @@ This repository covers:
 - ColumnTransformer & Pipeline  
 - One-Hot Encoding  
 - Feature scaling (StandardScaler)  
-- K-Fold evaluation  
+- Train-test split  
 - Confusion Matrix & Classification Report  
 
 ---
 
-## 📌 3. K-Nearest Neighbors (KNN)
+## 📌 3. Naive Bayes Classification (Diabetes Prediction)
+
+**Type:** Classification  
+**Dataset:** `Naive-Bayes-Classification-Data.csv`  
+**Objective:** Predict whether a patient has diabetes based on medical indicators such as glucose level and blood pressure.
+
+**Key Concepts:**
+- Gaussian Naive Bayes  
+- Probabilistic classification using Bayes theorem  
+- Train-test split  
+- Model evaluation using Accuracy and Classification Report  
+- Confusion Matrix visualization  
+
+---
+
+## 📌 4. K-Nearest Neighbors (KNN)
 
 **Type:** Classification  
 **Dataset:** `drug200.csv`
@@ -59,7 +74,7 @@ This repository covers:
 
 ---
 
-## 📌 4. Decision Tree Classification (Breast Cancer Prediction)
+## 📌 5. Decision Tree Classification (Breast Cancer Prediction)
 
 **Type:** Classification  
 **Dataset:** `cancer_classification.csv`  
@@ -74,7 +89,7 @@ This repository covers:
 
 ---
 
-## 📌 5. Decision Tree Regression (Student Performance Prediction)
+## 📌 6. Decision Tree Regression (Student Performance Prediction)
 
 **Type:** Regression  
 **Dataset:** `Student_Performance.csv`  
@@ -90,7 +105,7 @@ This repository covers:
 
 ---
 
-## 📌 6. Linear Regression (Salary Prediction)
+## 📌 7. Linear Regression (Salary Prediction)
 
 **Type:** Regression  
 **Dataset:** `Salary_dataset.csv`
@@ -102,7 +117,7 @@ This repository covers:
 
 ---
 
-## 📌 7. Multiple Linear Regression (Student Performance)
+## 📌 8. Multiple Linear Regression (Student Performance)
 
 **Type:** Regression  
 **Dataset:** `Student_Performance.csv`
@@ -114,7 +129,7 @@ This repository covers:
 
 ---
 
-## 📌 8. Polynomial Regression
+## 📌 9. Polynomial Regression
 
 **Type:** Non-linear Regression  
 
@@ -125,7 +140,7 @@ This repository covers:
 
 ---
 
-## 📌 9. Linear Regression using Gradient Descent
+## 📌 10. Linear Regression using Gradient Descent
 
 **Type:** Regression  
 
@@ -137,19 +152,20 @@ This repository covers:
 
 ---
 
-## 🔑 Core ML Concepts Covered
+# 🔑 Core Machine Learning Concepts Covered
 
 - Data Cleaning & Preprocessing  
 - Feature Engineering  
 - Encoding Techniques  
 - Feature Scaling  
 - Train-Test Split  
-- K-Fold & Stratified K-Fold  
+- K-Fold & Stratified K-Fold Cross Validation  
 - Hyperparameter Tuning (GridSearchCV)  
-- Model Evaluation (Accuracy, R², MSE, F1-score)  
+- Model Evaluation (Accuracy, R², MSE, Precision, Recall, F1-score)  
 - Decision Tree Modeling & Visualization  
+- Probabilistic Modeling with Naive Bayes  
 - Model Stability & Bias-Variance Tradeoff  
 
 ---
 
-This repository reflects practical implementation of fundamental Machine Learning algorithms with structured experimentation, evaluation strategies, and visualization techniques.
+This repository reflects practical implementations of fundamental Machine Learning algorithms with structured experimentation, evaluation strategies, and visualization techniques.
