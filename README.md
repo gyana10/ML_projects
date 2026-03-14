@@ -51,12 +51,28 @@ This repository covers:
 - Gaussian Naive Bayes  
 - Probabilistic classification using Bayes theorem  
 - Train-test split  
-- Model evaluation using Accuracy and Classification Report  
+- Accuracy evaluation  
 - Confusion Matrix visualization  
 
 ---
 
-## 📌 4. K-Nearest Neighbors (KNN)
+## 📌 4. Support Vector Machine (Vitamin Deficiency Disease Prediction)
+
+**Type:** Classification  
+**Dataset:** `vitamin_deficiency_disease_dataset.csv`  
+**Objective:** Predict vitamin deficiency diseases using demographic, lifestyle, and biochemical indicators.
+
+**Key Concepts:**
+- Support Vector Machine (SVM) classifier  
+- Feature scaling using StandardScaler  
+- Encoding categorical variables  
+- Hyperplane and margin maximization  
+- Confusion Matrix and classification evaluation  
+- Data visualization and feature analysis  
+
+---
+
+## 📌 5. K-Nearest Neighbors (KNN)
 
 **Type:** Classification  
 **Dataset:** `drug200.csv`
@@ -74,11 +90,11 @@ This repository covers:
 
 ---
 
-## 📌 5. Decision Tree Classification (Breast Cancer Prediction)
+## 📌 6. Decision Tree Classification (Breast Cancer Prediction)
 
 **Type:** Classification  
 **Dataset:** `cancer_classification.csv`  
-**Objective:** Predict whether a tumor is **Benign (0)** or **Malignant (1)** using medical diagnostic features.
+**Objective:** Predict whether a tumor is **Benign (0)** or **Malignant (1)** using diagnostic features.
 
 **Key Concepts:**
 - Decision Tree modeling  
@@ -89,23 +105,23 @@ This repository covers:
 
 ---
 
-## 📌 6. Decision Tree Regression (Student Performance Prediction)
+## 📌 7. Decision Tree Regression (Student Performance Prediction)
 
 **Type:** Regression  
 **Dataset:** `Student_Performance.csv`  
-**Objective:** Predict a student's **Performance Index** based on study hours, sleep hours, previous scores, extracurricular activities, and other academic factors.
+**Objective:** Predict student **Performance Index** using academic and lifestyle indicators.
 
 **Key Concepts:**
 - Decision Tree Regressor modeling  
-- Handling categorical variables (Yes/No → 1/0 encoding)  
-- Train-test split for regression tasks  
+- Handling categorical variables  
+- Train-test split  
 - Model evaluation using **R² Score** and **Mean Squared Error (MSE)**  
 - Feature importance visualization  
-- Decision Tree regression visualization using `plot_tree()`  
+- Regression tree visualization  
 
 ---
 
-## 📌 7. Linear Regression (Salary Prediction)
+## 📌 8. Linear Regression (Salary Prediction)
 
 **Type:** Regression  
 **Dataset:** `Salary_dataset.csv`
@@ -117,7 +133,7 @@ This repository covers:
 
 ---
 
-## 📌 8. Multiple Linear Regression (Student Performance)
+## 📌 9. Multiple Linear Regression (Student Performance)
 
 **Type:** Regression  
 **Dataset:** `Student_Performance.csv`
@@ -129,7 +145,7 @@ This repository covers:
 
 ---
 
-## 📌 9. Polynomial Regression
+## 📌 10. Polynomial Regression
 
 **Type:** Non-linear Regression  
 
@@ -140,7 +156,7 @@ This repository covers:
 
 ---
 
-## 📌 10. Linear Regression using Gradient Descent
+## 📌 11. Linear Regression using Gradient Descent
 
 **Type:** Regression  
 
@@ -164,8 +180,9 @@ This repository covers:
 - Model Evaluation (Accuracy, R², MSE, Precision, Recall, F1-score)  
 - Decision Tree Modeling & Visualization  
 - Probabilistic Modeling with Naive Bayes  
+- Support Vector Machines  
 - Model Stability & Bias-Variance Tradeoff  
 
 ---
 
-This repository reflects practical implementations of fundamental Machine Learning algorithms with structured experimentation, evaluation strategies, and visualization techniques.
+This repository demonstrates practical implementations of core Machine Learning algorithms with structured experimentation, evaluation strategies, and visualization techniques.
